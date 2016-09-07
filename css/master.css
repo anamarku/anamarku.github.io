@@ -7,6 +7,30 @@ html {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+.Nav-Bar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
 .prof-box {
 	width: 430px;
 	height: 450px;
@@ -29,13 +53,11 @@ h1{
 	font-weight: 100;
 	letter-spacing: 4;
 	font-size: 40px;
-	font-family: 'Helvetica Neue', sans-serif;
 }
 
 p {
 	font-weight: 200;
 	letter-spacing: 1;
-	font-family: 'Helvetica Neue', sans-serif;
 }
 
 .social-icons {
