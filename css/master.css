@@ -9,10 +9,11 @@ html {
 
 .Nav-Bar {
 	list-style-type: none;
-    margin: 0;
+    margin: 2;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background: rgba(0,0,0,0.4);
+    width: 17.4%;
 }
 
 li {
